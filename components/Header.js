@@ -20,12 +20,9 @@ function Header() {
 				<HeaderItem title='SEARCH' Icon={SearchIcon} />
 				<HeaderItem title='ACCOUNT' Icon={UserIcon} />
 			</div>
-			<Image
-				className='object-contain'
-				src='https://links.papareact.com/ua6'
-				width={200}
-				height={100}
-			/>
+			<h1 className='font-bold text-4xl uppercase sm:mr-3 sm:mb-7 text-white'>
+				box.office
+			</h1>
 		</header>
 	);
 }
